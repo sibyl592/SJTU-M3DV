@@ -11,10 +11,12 @@ The final submission results are in folder BestResult, including Weight file of 
 * Keras == 2.3.1
 
 ## Code Structure
-DenseNet.py : training network, implementation of the paper Densely Connected Convolutional Networks in Keras
+[DenseNet.py](https://github.com/sibyl592/SJTU-M3DV/blob/master/DenseNet.py) : Training network, implementation of the paper Densely Connected Convolutional Networks in Keras
 
-data.py : data processing
+[data.py](https://github.com/sibyl592/SJTU-M3DV/blob/master/data.py) : Data processing
 
-train.py : parameter configuration and training
+[train.py](https://github.com/sibyl592/SJTU-M3DV/blob/master/train.py) : Parameter configuration and training
 
-DenseSharp-master : a parameter-efficient 3D DenseNet-based deep neural network, with multi-task learning the nodule classification labels and segmentation masks.
+[DenseSharp-master](https://github.com/sibyl592/SJTU-M3DV/tree/master/DenseSharp-master/DenseSharp-master) : A parameter-efficient 3D DenseNet-based deep neural network, with multi-task learning the nodule classification labels and segmentation masks.
+
+[test.py](https://github.com/sibyl592/SJTU-M3DV/blob/master/test.py) : Run this file to directly output a submission.csv file for kaggle submission
